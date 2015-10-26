@@ -14,4 +14,42 @@
 
 .person:hover {
     border-color: #f1f1f1;
+
 }
+
+
+.carousel-inner img {
+    /*-webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /*makes all photos black and white*/*/
+    width: 100%;
+    margin: auto;
+
+}
+
+.carousel-caption h3 {
+
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /*Hides the carousel text when the screen is less than 600 px wide*/
+    }
+}
+
+.bg-1{
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+
+
+
+
+
+
+
