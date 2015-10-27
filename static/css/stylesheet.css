@@ -1,3 +1,10 @@
+html, body, footer, i, a, p, .container {
+    font-family: 'Special Elite', cursive;
+}
+
+#grab {
+    font-style: 'Special Elite', cursive;
+}
 .container {
     padding: 80px 120px;
     /*padding pushes this container from the margin*/
