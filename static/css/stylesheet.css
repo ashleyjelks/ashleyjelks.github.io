@@ -2,6 +2,11 @@ html, body, footer, i, a, p, .container {
     font-family: 'Special Elite', courier;
 }
 
+body {
+    padding: 50px;
+}
+
+
 .container {
     padding: 80px 120px;
     /*padding pushes this container from the margin*/
@@ -48,7 +53,7 @@ html, body, footer, i, a, p, .container {
 }
 
 .bg-1 h3 {color: #fff;}
-.bg-1 p {font-style: italic;}
+.bg-1 p {color: white;}
 
 /* Remove rounded borders from list */
 .list-group-item:first-child{
@@ -154,7 +159,7 @@ footer a:hover {
 }
 
 #space {    
-    line-height: 200%;
+    line-height: 150%;
     /*font-family: 'Raleway';*/
     /*font-family: 'Montserrat', sans-serif;*/
 }

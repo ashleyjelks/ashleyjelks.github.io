@@ -9,15 +9,9 @@
 
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div id="aboutme" class="container"></div>
-    <div id="project" class="container"></div>
-    <div id="experience" class="container"></div>
-    <div id="education" class="container"></div>
-    <div id="contact" class="container"></div>
 
-    <div id="aboutme" class="container"></div>
-    <nav class="navbar navbar-default navbar-fixed-top">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -31,13 +25,13 @@
 
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">Bio</a></li>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE???
                             <span class="caret"></span>
                         </a>
@@ -47,64 +41,65 @@
                             <li><a href="#">Something3</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span class="glyphicon glypicon-search"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glypicon-search"></span></a></li> -->
                 </ul>
             </div>
         </div> 
     </nav>
 
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+    
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel plugin is a component for cycling through elements, like a carousel (slideshow) -->
+            <!-- data-ride activates the carousel -->
+            <!-- CAROUSEL INDICATORS====The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing).The indicators are specified in an ordered list with class .carousel-indicators.-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel plugin is a component for cycling through elements, like a carousel (slideshow) -->
-        <!-- data-ride activates the carousel -->
-        <!-- CAROUSEL INDICATORS====The indicators are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing).The indicators are specified in an ordered list with class .carousel-indicators.-->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="static/img/smlNY.jpg" alt="remote cafe">
-                <div class="carousel-caption">
-                    <h3>Remote Cafe</h3>
-                    <p>Goes Where the Tea is Good.</p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="static/img/smlNY.jpg" alt="remote cafe">
+                    <div class="carousel-caption">
+                        <h3>Remote Cafe</h3>
+                        <p>Goes Where the Tea is Good.</p>
+                    </div>
                 </div>
+
+                <div class="item">
+                    <img src="static/img/smlSF.jpg" alt="hot air balloons">
+                    <div class="carousel-caption">
+                        <h3>Where Will She Go Next?</h3>
+                        <p>Contact Her and You'll See</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="static/img/smlLA.jpg" alt="dope sf bridge shot">
+                    <div class="carousel-caption">
+                        <h3>Currently in the San Francisco Bay Area</h3>
+                        <p>Open to Opportunities Elsewhere!</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="item">
-                <img src="static/img/smlSF.jpg" alt="hot air balloons">
-                <div class="carousel-caption">
-                    <h3>Where Will She Go Next?</h3>
-                    <p>Contact Her and You'll See</p>
-                </div>
-            </div>
+            <!-- Left and right carousel controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+            </a>
 
-            <div class="item">
-                <img src="static/img/smlLA.jpg" alt="dope sf bridge shot">
-                <div class="carousel-caption">
-                    <h3>Currently in the San Francisco Bay Area</h3>
-                    <p>Open to Opportunities Elsewhere!</p>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Left and right carousel controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-        </a>
-
-        <a class ="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-        </a>
-    </div> <!-- end carousel div -->
+            <a class ="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+            </a>
+        </div> <!-- end carousel div -->
+    
 
 
         <div class="container text-center">  
@@ -153,10 +148,15 @@
 
         <div class="bg-1">
             <!-- <div class="container"> -->
-                <br><h3 class="text-center">WHO IS ASHLEY R. JELKS?</h3><br><h4 id="#aboutme" class="text-center"><p id="space">Ashley is a San Francisco Bay Area (by way of New York City) based multilingual, world-travelled, full-stack software engineer with a variety of interests and skills. She comes to the software development industry after several years of teaching both at the high school and college level. When she's not programming, designing and developing web projects, you can find her discussing, reading, and writing about domestic and international racial, gender, sexuality politics, reading tech blogs and exploring new technologies and frameworks, catching up on an ever growing reading list, doing yoga, drinking tea or red Zinfandel, making and exploring art, and planning her next global voyage.</p></h4>
+            
+                <br>
+            <div id="aboutme">
+                <h3 class="text-center">WHO IS ASHLEY R. JELKS?</h3><br><h4 class="text-center"><p id="space">Ashley is a San Francisco Bay Area (by way of New York City) based multilingual, world-travelled, full-stack software engineer with a variety of interests and skills. She comes to the software development industry after several years of teaching both at the high school and college level. When she's not programming, designing and developing web projects, you can find her discussing, reading, and writing about domestic and international racial, gender, sexuality politics, reading tech blogs and exploring new technologies and frameworks, catching up on an ever growing reading list, doing yoga, drinking tea or red Zinfandel, making and exploring art, and planning her next global voyage.</p></h4>
+            </div> <!-- end div for about me section -->
                     <ul class="list-group">
                             <li class="list-group-item" style="color:black"></li>
                         </ul>
+            <div id="experience">
                 <h3 class="text-center">EXPERIENCE</h3><br>
                     <!-- <p class="text-center">Put a description of history and exp. here.<br>And some more here if you need to....</p> -->
                         <ul class="list-group">
@@ -175,8 +175,9 @@
                             <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
                             <br><br>What I did at HB</li>
                         </ul>
-
-                <h3 id="experience" class="text-center">EDUCATION</h3><br>
+            </div> <!-- end div for experience div -->
+            <div id="education">
+                <h3 class="text-center">EDUCATION</h3><br>
                         <ul class="list-group">
                             <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
                             <br><br>What I did at HB</li>
@@ -193,8 +194,9 @@
                             <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
                             <br><br>What I did at HB</li>
                         </ul>
-
-                <h3 id="project" class="text-center">PROJECTS</h3><br>
+            </div> <!-- end div for education div -->
+            <div id="project">    
+                <h3 class="text-center">PROJECTS</h3><br>
                         <ul class="list-group">
                             <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
                             <br>What I did at HB</li>
@@ -211,8 +213,10 @@
                             <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
                             <br><br>What I did at HB</li>
                         </ul><br>
+            </div> <!-- end div for project div -->
             <!-- </div> -->
-        </div>
+        </div> <!-- end div for bg-1 container -->
+
 
                         <!-- added badge and labels classes on span tags to create inline messages --> 
                 
@@ -240,16 +244,17 @@
                         </div>  
                     </div>     -->
 
-    <div class="container">
-        <h3 class="text-center">Interested in Contacting Ashley?</h3>
-            <p class="text-center"><strong>Always open to new career and freelancing opportunities</em></p>
-            <p><span class="glyphicon glyphicon-map-marker"></span>San Francisco Bay Area & New York City</p>  
-            <p><span class="glyphicon glyphicon-phone"></span>Phone: +1 646.648.0603</p>
-            <p><span class="glyphicon glyphicon-envelope"></span>Email: arjelks@gmail.com</p>      
-            <p style="font-style: 'Special Elite', cursive"><a href="https://twitter.com/madamejelks"><i class="fa fa-twitter"><span style="font-family:'Special Elite'">Twitter</span></i></a></p>
-            <p><a href="http://linkedin.com/in/ashleyrjelks"><i class="fa fa-linkedin-square"><span style="font-family:'Special Elite'">LinkedIn</span></i></a></p>
-            <p><a href="https://github.com/ashleyjelks"><i class="fa fa-github"><span style="font-family:'Special Elite'">Github</span></i></a></p>
-            <p><a href="https://plus.google.com/u/0/+AshleyReneeJelks"><i class="fa fa-google-plus"><span style="font-family:'Special Elite'">Google+</span></i></a></p>       
+        <div id="contact">
+            <h3 class="text-center">Interested in Contacting Ashley?</h3>
+                <p class="text-center"><strong>Always open to new career and freelancing opportunities</em></p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>San Francisco Bay Area & New York City</p>  
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +1 646.648.0603</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: arjelks@gmail.com</p>      
+                <p style="font-style: 'Special Elite', cursive"><a href="https://twitter.com/madamejelks"><i class="fa fa-twitter"><span style="font-family:'Special Elite'">Twitter</span></i></a></p>
+                <p><a href="http://linkedin.com/in/ashleyrjelks"><i class="fa fa-linkedin-square"><span style="font-family:'Special Elite'">LinkedIn</span></i></a></p>
+                <p><a href="https://github.com/ashleyjelks"><i class="fa fa-github"><span style="font-family:'Special Elite'">Github</span></i></a></p>
+                <p><a href="https://plus.google.com/u/0/+AshleyReneeJelks"><i class="fa fa-google-plus"><span style="font-family:'Special Elite'">Google+</span></i></a></p>
+        </div>       
     </div>
 
 </body>
@@ -276,26 +281,26 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();    
 })
 
-// $(document).ready(function(){
-//   // Add smooth scrolling to all links in navbar + footer link
-//   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-//   // Prevent default anchor click behavior
-//   event.preventDefault();
+  // Prevent default anchor click behavior
+  event.preventDefault();
 
-//   // Store hash
-//   var hash = this.hash;
+  // Store hash
+  var hash = this.hash;
 
-//   // Using jQuery's animate() method to add smooth page scroll
-//   // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-//   $('html, body').animate({
-//     scrollTop: $(hash).offset().top
-//   }, 900, function(){
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
 
-//     // Add hash (#) to URL when done scrolling (default click behavior)
-//     window.location.hash = hash;
-//     });
-//   });
-// })
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
 </script>
 </html>
