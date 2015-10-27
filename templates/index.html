@@ -9,7 +9,52 @@
 
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="aboutme" class="container"></div>
+    <div id="project" class="container"></div>
+    <div id="experience" class="container"></div>
+    <div id="education" class="container"></div>
+    <div id="contact" class="container"></div>
+
+    <div id="aboutme" class="container"></div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#myNavabar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE???
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Something1</a></li>
+                            <li><a href="#">Something2</a></li>
+                            <li><a href="#">Something3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glypicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+
+
+
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel plugin is a component for cycling through elements, like a carousel (slideshow) -->
@@ -146,8 +191,6 @@
     <div class="container">
         <h3 class="text-center">Interested in Contacting Ashley?</h3>
             <p class="text-center"><em>Always open to new career and freelancing opportunities</em></p>
-            <p><i class="fa fa-globe"></i>Palo Alto, California, USA</p>
-            <p><i class="fa fa-globe"></i>New York, NY, USA</p>
             <p><span class="glyphicon glyphicon-phone"></span>Phone: +1 646.648.0603</p>
             <p><span class="glyphicon glyphicon-envelope"></span>Email: arjelks@gmail.com</p>      
             <p><a href="https://twitter.com/madamejelks"><i class="fa fa-twitter">Twitter</i></a></p>
@@ -166,6 +209,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<footer>
+<footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="Return to Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>Ashley R. Jelks <span><i class="fa fa-copyright"></i>  2015</span></p>
 </footer>
+<script type="text/javascript">
+$(document).ready(function(){
+    //Intialize tooltip
+    $('[data-toggle="tooltip"]').tooltip();    
+})
+</script>
 </html>
