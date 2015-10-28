@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="static/css/stylesheet.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite|Happy+Monkey' rel='stylesheet' type='text/css'>
 </head>
 
 
@@ -20,13 +20,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+                <span class="navbar-brand">Ashley R. Jelks</span>
             </div>
 
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#aboutme">Bio</a></li>
+                    <!-- <li><a href="#interests">Skills & Interests</a></li> -->
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#education">Education</a></li>
@@ -48,8 +49,7 @@
     </nav>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    
+    <div id="home">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Carousel plugin is a component for cycling through elements, like a carousel (slideshow) -->
             <!-- data-ride activates the carousel -->
@@ -63,26 +63,29 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="static/img/smlNY.jpg" alt="remote cafe">
+                    <img src="static/img/black-and-white-city-skyline-buildings.jpg" alt="nyc blk and white">
                     <div class="carousel-caption">
-                        <h3>Remote Cafe</h3>
-                        <p>Goes Where the Tea is Good.</p>
+                        <h3>Ashley R. Jelks</h3>
+                        <p>Developer, Designer, Engineer</p>
+                        <p>Based Part-Time in New York City</p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="static/img/smlSF.jpg" alt="hot air balloons">
+                    <img src="static/img/landmark-bridge-cliff-california.jpeg" alt="golden gate bridge under fog">
                     <div class="carousel-caption">
-                        <h3>Where Will She Go Next?</h3>
-                        <p>Contact Her and You'll See</p>
+                        <h3>Ashley R. Jelks</h3>
+                        <p>Developer, Designer, Engineer</p>
+                        <p>Currently Located in the San Francisco Bay Area</p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="static/img/smlLA.jpg" alt="dope sf bridge shot">
+                    <img src="static/img/coffee-apple-iphone-desk.jpg" alt="remote work with coffee laptop iphone">
                     <div class="carousel-caption">
-                        <h3>Currently in the San Francisco Bay Area</h3>
-                        <p>Open to Opportunities Elsewhere!</p>
+                        <h3>Ashley R. Jelks</h3>
+                        <p>Developer, Designer, Engineer</p>
+                        <p>Available for Freelance/Remote Projects</p>
                     </div>
                 </div>
 
@@ -99,46 +102,51 @@
                     <span class="sr-only">Next</span>
             </a>
         </div> <!-- end carousel div -->
+        </div>
     
 
 
         <div class="container text-center">  
         <!-- centers text and imgs wrapped in this container  -->
             <h1>Ashley R. Jelks</h1>
-                <p><em>Developer, Designer, Engineer, Multipotentialite</em></p>
-                <p>San Francisco Bay Area, Los Angeles, New York and Remote</p>
+                <h4><p><em>Full Stack Software Engineer</em></p>
+                <p>San Francisco Bay Area, Los Angeles, New York and Remote</p></h4>
                 <br>
 
             <div class="row">
             <!-- row with these 3 centered images each in their own col sm 4 divs -->
 
                 <div class="col-sm-4">
-                    <p class="text-center"><strong>NY</strong></p><br>
+                    <p class="text-center"><strong>Silicon Alley</strong></p><br>
                     <a href="#demo" data-toggle="collapse">
                         <img src="static/img/nyc-nite-skyline.jpeg" class="img-circle person" alt="nyc">
                     </a>
                     <div id="demo" class="collapse">
-                        <p>Silicon Alley</p>
+                        <p>Currently Located Part-Time in New York City</p>
+                        <p>Willing to Relocate Permanently/Full-Time to: New York, New York</p>
                     </div> 
                 </div>
 
                 <div class="col-sm-4">
-                    <p class="text-center"><strong>LA</strong></p><br>
+                    <p class="text-center"><strong>Silicon Beach</strong></p><br>
                     <a href="#demo2" data-toggle="collapse">
                         <img src="static/img/losangels.jpeg" class="img-circle person" alt="la">
                     </a> 
                     <div id="demo2" class="collapse">
-                        <p>Silicon Beach</p>
+                        <p>Willing to Relocate to:</p>
+                        <p>Los Angeles, California</p>
+                        <!-- <p>Silicon Beach</p> -->
                     </div>              
                 </div>
 
                 <div class="col-sm-4">
-                    <p class="text-center"><strong>SF</strong></p><br>
+                    <p class="text-center"><strong>Silicon Valley/SF Bay Area</strong></p><br>
                     <a href="#demo3" data-toggle="collapse">
                         <img src="static/img/smlSF.jpg" class="img-circle person" alt="SF">
                     </a>
                     <div id="demo3" class="collapse">
-                        <p>Silicon Valley</p>
+                        <p>Currently Located In:</p>
+                        <p>San Francisco Bay Area, California</p>
                     </div> 
                 </div>
                     <!-- each div is contained in a circle and converted to a link that on data-toggle click drops down text (silicon alley, beach, valley) -->
@@ -146,76 +154,100 @@
             </div> <!-- contain div -->
     
 
+         <div id="aboutme">
         <div class="bg-1">
             <!-- <div class="container"> -->
             
                 <br>
-            <div id="aboutme">
-                <h3 class="text-center">WHO IS ASHLEY R. JELKS?</h3><br><h4 class="text-center"><p id="space">Ashley is a San Francisco Bay Area (by way of New York City) based multilingual, world-travelled, full-stack software engineer with a variety of interests and skills. She comes to the software development industry after several years of teaching both at the high school and college level. When she's not programming, designing and developing web projects, you can find her discussing, reading, and writing about domestic and international racial, gender, sexuality politics, reading tech blogs and exploring new technologies and frameworks, catching up on an ever growing reading list, doing yoga, drinking tea or red Zinfandel, making and exploring art, and planning her next global voyage.</p></h4>
+            <!-- <div id="aboutme"> -->
+                <h1 class="text-center">WHO IS ASHLEY R. JELKS?</h1><h4 class="text-center">
+                <div id="center"><p id="space">Ashley is a San Francisco Bay Area (by way of New York City) based multilingual (English, French, Spanish, German), world-travelled (25+ countries), full-stack software engineer with a variety of interests and skills. She comes to the software development industry after several years of teaching both at the high school and university level. When she's not programming, designing and developing web applications, you can find her discussing, reading, and writing about domestic and international politics, race, gender, sexuality politics, reading tech blogs and exploring new technologies and frameworks, catching up on an ever growing reading list, doing yoga, drinking tea or red Zinfandel, making and exploring art, and planning her next global voyage.</p></h4></div>
             </div> <!-- end div for about me section -->
                     <ul class="list-group">
-                            <li class="list-group-item" style="color:black"></li>
+                            <!-- <li class="list-group-item" style="color:black"></li> -->
                         </ul>
+            
+            <div id="project">    
+                <h1 class="text-center">PROJECTS</h1><br>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="color:black"><h3><strong>StudyTracker</strong></h3>
+                            <h4 class="space-chars">Built Using: Python, Flask, Twitter Bootstrap, HTML, PostgreSQL, JavaScript, Chart.js, and IBM Bluemix.<br>
+                            Web based application for students to track their hours spent studying/working on academic work. Data
+                            visualized to display student progress. Presented at HackingEDU Hackathon.</h4> <!-- Final implementation of StudyTracker will
+                            gamify the app by allowing students to redeem points earned for logging hours using Target's API, use Twilio to recieve
+                            text message reminders/encouragement to log hours and send teachers and parents text based updates on student progress -->
+                        </li>
+                        </ul> 
+
+                        <ul class="list-group">
+                            <li class="list-group-item" style="color:black"><h3><strong>Wanderlust Version 1.0</strong></h3>
+                            <h4 class="space-chars">Built Using: Python, Flask, SQLAlchemy, Twitter Bootstrap, HTML, JavaScript, Google Flights/QPX Express and Google Maps APIs.<br>
+                            Wanderlust is a Python-Flask based group travel app that aims to simplify planning group travel. Flight data is queried from Google Flights'​ 
+                            API, stored in a SQLite database and passed to users to deliver competitive airline ticket prices for two travelers, departing from two 
+                            different locations, who wish to meet in the same city. It also takes into consideration each traveler's budget, by searching for flights 
+                            that meet each traveler's specified budget. Users who have created an account and are logged in while searching have the option to save the 
+                            results of their queries to their account.</h4>
+                        </li>
+                        </ul>
+
+                        <ul class="list-group">
+                            <li class="list-group-item" style="color:black"><h3><strong>Wanderlust Version 2.0</strong></h3>
+                            <h4 class="space-chars">Built Using: Python, Django, PostgreSQL, Twitter Bootstrap, HTML, React.js, JavaScript, Wikipedia, Yelp, Airbnb, Google Flights/QPX Express and Google Maps APIs.<br>
+                            Wanderlust 2.0 is an update and to the original version of this web application. It is still a Python-Flask based group travel app 
+                            that aides travellers in planning trips where users have different respective budgets and are arriving from different points of departure.
+                            Version 2.0 will integrate Airbnb, Wikipedia, and Yelp data to help users locate highly rated accomodations, eateries, bars, and points of interest in their 
+                            destination city.</h4>
+                        </li>
+                        </ul>
+
+            </div> <!-- end div for project div -->
+                        
             <div id="experience">
-                <h3 class="text-center">EXPERIENCE</h3><br>
+                <h1 class="text-center">EXPERIENCE</h1><br>
                     <!-- <p class="text-center">Put a description of history and exp. here.<br>And some more here if you need to....</p> -->
+                        <!-- <ul class="list-group">
+                            <li class="list-group-item" style="color:black"><h3><a href="http://truss.works/#truss-home"><strong>Truss</strong></a></h3>
+                            Software Engineer</li>
+                        </ul> -->
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><a href="http://hackbrightacademy.com"><strong>Hackbright Academy</strong></a></h3>
+                            <h4 class="space-chars"><strong>Sofware Engineering Fellow</strong><br>Highly competitive full-stack web development and software engineering program for women.<br>
+                           Technologies & Concepts Mastered: Python, REST/SOAP APIs, Object Oriented Programming, Flask, CSS, HTML, JavaScript, jQuery, SQL, Relational Databases/Data Modeling, 
+                           AJAX, JSON, SQLAlchemy, Machine Learning, Agile Project Planning, Data Structures, Git, Github, Version Control, Algorithms, Analysis of Algorithmic Space/Time Complexity</h4>
                         </ul>
+
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><strong>New York City Department of Education</strong></h3>
+                            <h4 class="space-chars"><strong>Social Studies + Special Education + Adult ESL Teacher</strong><br>Taught predominantly low-income and disadvantaged high school students in New York City<br>
+                            Responsible for: Curriculum design and implementation; integration of technology as a pedagogical tool, data driven instruction and 
+                            project based student assessments</h4>
                         </ul>
+
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><strong>University of Kansas, American Studies Program</strong></h3>
+                            <h4 class="space-chars"><strong>Adjunct Professor + Research Fellow + Graduate Teaching Assisstant</strong><br>While enrolled as doctoral student in the American Studies program, 
+                            designed and taught undergraduate courses, recruited students at national conferences, and received a fellowship to research at 
+                            the Johannes Gutenberg Universität Mainz in Germany</h4>
                         </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
-                        </ul>
+
             </div> <!-- end div for experience div -->
             <div id="education">
-                <h3 class="text-center">EDUCATION</h3><br>
+                <h1 class="text-center">EDUCATION</h1><br>
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><strong>Hackbright Academy, 2015</strong></h3>
                         </ul>
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><strong>Long Island University, 2013</strong></h3>
+                            <br><h4 class="space-chars">Master of Science in Education</li></h4>
                         </ul>
                         <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
+                            <li class="list-group-item" style="color:black"><h3><strong>Saint Louis University, 2007</strong></h3>
+                            <br><h4 class="space-chars">Bachelor of Arts in American Studies, International Studies, French</li></h4>
                         </ul>
             </div> <!-- end div for education div -->
-            <div id="project">    
-                <h3 class="text-center">PROJECTS</h3><br>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br>What I did at HB</li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item" style="color:black"><strong>Hackbright Academy, Sofware Engineering Fellow</strong>
-                            <br><br>What I did at HB</li>
-                        </ul><br>
-            </div> <!-- end div for project div -->
+            
             <!-- </div> -->
-        </div> <!-- end div for bg-1 container -->
+        <!-- end div for bg-1 container -->
 
 
                         <!-- added badge and labels classes on span tags to create inline messages --> 
@@ -244,25 +276,27 @@
                         </div>  
                     </div>     -->
 
+    <div class="container text-center">
         <div id="contact">
-            <h3 class="text-center">Interested in Contacting Ashley?</h3>
-                <p class="text-center"><strong>Always open to new career and freelancing opportunities</em></p>
-                <p><span class="glyphicon glyphicon-map-marker"></span>San Francisco Bay Area & New York City</p>  
+            <h1 class="text-center">Interested in Contacting Ashley?</h1>
+                <h2><p class="text-center"><strong>Always open to new career and freelancing opportunities</em></p></h2>
+                <h3><p><span class="glyphicon glyphicon-map-marker"></span>San Francisco Bay Area & New York City</p>  
                 <p><span class="glyphicon glyphicon-phone"></span>Phone: +1 646.648.0603</p>
                 <p><span class="glyphicon glyphicon-envelope"></span>Email: arjelks@gmail.com</p>      
-                <p style="font-style: 'Special Elite', cursive"><a href="https://twitter.com/madamejelks"><i class="fa fa-twitter"><span style="font-family:'Special Elite'">Twitter</span></i></a></p>
+                <p><a href="https://twitter.com/madamejelks"><i class="fa fa-twitter"><span style="font-family:'Special Elite'">Twitter</span></i></a></p>
                 <p><a href="http://linkedin.com/in/ashleyrjelks"><i class="fa fa-linkedin-square"><span style="font-family:'Special Elite'">LinkedIn</span></i></a></p>
                 <p><a href="https://github.com/ashleyjelks"><i class="fa fa-github"><span style="font-family:'Special Elite'">Github</span></i></a></p>
-                <p><a href="https://plus.google.com/u/0/+AshleyReneeJelks"><i class="fa fa-google-plus"><span style="font-family:'Special Elite'">Google+</span></i></a></p>
-        </div>       
-    </div>
+                <p><a href="https://plus.google.com/u/0/+AshleyReneeJelks"><i class="fa fa-google-plus"><span style="font-family:'Special Elite'">Google+</span></i></a></p></h3>
+        </div> 
+    </div>      
+</div>
+   
 
 </body>
 
     <link rel="stylesheet" href="static/css/font/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>" type='text/css'>
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
@@ -270,7 +304,7 @@
 <footer class="text-center">
     <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="Return to Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br><br>
+    </a>
     <p>Ashley R. Jelks <span><i class="fa fa-copyright"></i>  2015</span></p>
 </footer>
 

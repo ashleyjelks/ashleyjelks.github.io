@@ -1,14 +1,18 @@
-html, body, footer, i, a, p, .container {
-    font-family: 'Special Elite', courier;
+html, body, footer, i, a, p, .container, span, .carousel-caption{
+   font-family: 'Special Elite', courier;
+
 }
+
+
 
 body {
     padding: 50px;
-}
 
+}
 
 .container {
     padding: 80px 120px;
+
     /*padding pushes this container from the margin*/
 
 }
@@ -159,11 +163,27 @@ footer a:hover {
 }
 
 #space {    
-    line-height: 150%;
-    /*font-family: 'Raleway';*/
-    /*font-family: 'Montserrat', sans-serif;*/
+    line-height: 175%;
+    font-size: 90%;
+    font-family: 'Happy Monkey', sans-serif;
 }
 
+#aboutme {
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;
+    padding-bottom: 50px;*/
+    padding: 50px;
+}
+
+
+#project, #experience, #education, #contact {
+    padding: 35px;
+   
+}
+
+.space-chars {
+    line-height: 150%;
+}
 
 
 
