@@ -1,4 +1,4 @@
-html, body, footer, i, a, p, .container, span, .carousel-caption{
+html, body, footer, i, a, p, .container, span, .carousel-caption {
    font-family: 'Special Elite', courier;
 
 }
@@ -116,7 +116,7 @@ body {
 
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
-    color: #fff !important;
+    color: red !important;
 }
 
 /* The active link */
@@ -183,6 +183,10 @@ footer a:hover {
 
 .space-chars {
     line-height: 150%;
+}
+
+p a {
+    color: red;
 }
 
 
