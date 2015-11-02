@@ -1,17 +1,16 @@
 from flask import Flask, render_template
 from flask_debugtoolbar import DebugToolbarExtension
 from jinja2 import StrictUndefined
-import secrets
+import os
 
 
 app = Flask(__name__)
 app.jinja_env.undefined = StrictUndefined
+app.secret_key = os.environ["SECRET_KEY"]
 
 
 @app.route('/', methods=['GET'])
 def view_index():
-
-   """Route to view drafts of github.io page"""
 
     return render_template("index.html")
 
